@@ -1,4 +1,4 @@
-
+/* 
 
 .App-logo {
   height: 20vmin;
@@ -29,6 +29,112 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+/************ Custom Font ************/
+@font-face {
+  font-family: Centra;
+  src: url("./assets/font/CentraNo2-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Centra;
+  src: url("./assets/font/CentraNo2-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Centra;
+  src: url("./assets/font/CentraNo2-Book.ttf");
+  font-weight: 400;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #0e1129;
+}
+
+/************ Default Css ************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #0e1129 !important;
+  color: #fff !important;
+  font-family: "Centra", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p,
+a,
+li,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+/************ Spline Css ************/
+.spline {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 550px;
+
+  @media (max-width: 1024px) {
+    transform: scale(0.8) translateX(-350px);
+  }
+  @media (max-width: 800px) {
+    transform: scale(0.6) translateX(-807px);
+  }
+  @media (max-width: 600px) {
+    transform: scale(0.4) translateX(-297px);
+    right: auto;
+    left: 50px;
+    top: -176px;
+  }
+  @media (max-width: 375px) {
+    transform: scale(0.4) translateX(-762px);
   }
 }
 nav.navbar {
