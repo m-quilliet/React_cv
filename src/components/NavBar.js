@@ -2,9 +2,9 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { useState, useEffect } from "react";
-import Logo from "../assets/images/logo.svg";
-import IconTwitter from "../assets/images/icon-twitter.svg";
-import IconYoutube from "../assets/images/icon-youtube.svg";
+import Logo from "../assets/images/logo.png";
+import IconGithub from "../assets/images/icon-github.svg";
+import IconLinkedin from "../assets/images/icon-linkedin.svg";
 
     export const NavBar = () => {
     const [activeLink, setActiveLink] = useState("home");
@@ -68,10 +68,10 @@ import IconYoutube from "../assets/images/icon-youtube.svg";
             <span className="navbar-text">
                 <div className="social-icon">
                 <a href="#">
-                    <img src={IconTwitter} alt="Twitter" />
+                    <img src={IconGithub} alt="Twitter" />
                 </a>
                 <a href="#">
-                    <img src={IconYoutube} alt="Youtube" />
+                    <img src={IconLinkedin} alt="Youtube" />
                 </a>
                 </div>
                 <button href="#contact" className="vvd">
