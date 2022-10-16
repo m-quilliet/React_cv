@@ -1,8 +1,5 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Navbar, Container, Nav} from "react-bootstrap";
 import { useState, useEffect } from "react";
-import Logo from "../assets/images/logo.png";
 import IconGithub from "../assets/images/icon-github.svg";
 import IconLinkedin from "../assets/images/icon-linkedin.svg";
 
@@ -30,7 +27,7 @@ import IconLinkedin from "../assets/images/icon-linkedin.svg";
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
             <Navbar.Brand href="#home">
-            <img src={Logo} alt="Logo" /> Maibelline Quilliet
+            Maibelline Quilliet
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
