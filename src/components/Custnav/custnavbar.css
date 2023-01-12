@@ -1,0 +1,44 @@
+
+
+
+  .header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position:fixed;
+    right: 3%;
+    bottom: 3rem;
+    font-size: 1.5rem;
+  }
+  
+  .header__socials::after {
+    content: "";
+    width: 1px;
+    height: 5rem;
+    background:#31525B;
+  }
+
+  .header__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: fixed;
+    left: 3%;
+    top: 3rem;
+    font-size: 1.6rem;
+  }
+  
+  .header__header::before {
+    content: "";
+    width: 1px;
+    height: 5rem;
+    background:#31525B;
+  }
+  div a { 
+    color: #31525B;
+  }
+  div a:hover {
+    color:#A46D4D;
+    }

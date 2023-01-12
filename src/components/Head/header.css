@@ -1,0 +1,318 @@
+
+.home {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: #31525b;
+}
+@media only screen and (max-width: 1024px) {
+  .home {
+    gap: 2rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .home {
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .home {
+    flex-direction: column-reverse;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .home {
+    margin-top: 1.5rem;
+  }
+}
+.home::after {
+  content: "";
+  height: 350px;
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #b3dee5;
+  opacity: 0.25;
+  border-radius: 51% 49% 100% 0%/45% 69% 31% 55%;
+}
+@media only screen and (max-width: 900px) {
+  .home::after {
+    display: none;
+  }
+}
+.home::before {
+  content: "";
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 12%;
+  left: 30%;
+  background: #ffa101;
+  opacity: 0.2;
+  border-radius: 77% 23% 46% 54%/45% 53% 47% 55%;
+}
+@media only screen and (max-width: 900px) {
+  .home::before {
+    display: none;
+  }
+}
+.home .catch-phrase {
+  color: #333333;
+  position: relative;
+}
+.home .catch-phrase h1 span {
+  background: linear-gradient(to right, #ffa101 0, #31525b 10%, #ffa101);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 10s infinite ease-in;
+}
+@keyframes shine {
+  0% {
+    background-position: left;
+  }
+  60% {
+    background-position: 500px;
+  }
+  100% {
+    background-position: right;
+  }
+}
+.home .catch-phrase span {
+  color: #ffa101;
+}
+.home .catch-phrase .buttons {
+  margin: 2rem 0;
+  display: flex;
+  gap: 2rem;
+}
+.home .catch-phrase .buttons button {
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0 1rem;
+  color: white;
+}
+.home .catch-phrase .buttons .hire-me {
+  background: #31525b;
+  border: solid 1px transparent;
+  transition: all 0.5s;
+}
+.home .catch-phrase .buttons .hire-me:hover {
+  color: #31525b;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.145);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #f5f5f5;
+}
+.home .catch-phrase .buttons .cv {
+  background: transparent;
+  color: #31525b;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.145);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  transition: all 0.5s;
+}
+.home .catch-phrase .buttons .cv:hover {
+  background: #31525b;
+  border-color: transparent;
+  color: white;
+}
+.home .profil {
+  position: relative;
+  
+}
+img{
+  border-radius: 30% 30% 10%;
+
+}
+
+.home .profil::before {
+  content: "";
+width: 100%;
+height: 500px;
+
+  background: linear-gradient(239deg, rgb(49, 74, 91) 0%, rgb(76, 164, 160) 46%, rgb(116, 217, 246) 100%);
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 20% 70% 20% 30%;
+  -webkit-border-radius: 20% 70% 20% 80%/30% 100% 100% 80%;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -20;
+}
+.home .profil .freelancer,
+.home .profil .developper {
+  position: absolute;
+  color: #31525b;
+  background: white;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  font-size: 0.75rem;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.home .profil .freelancer .check,
+.home .profil .developper .check {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 100%;
+  color: #f5f5f5;
+}
+.home .profil .freelancer p,
+.home .profil .developper p {
+  opacity: 0.55;
+  font-size: 0.65rem;
+}
+.home .profil .freelancer {
+  top: 40%;
+}
+.home .profil .freelancer .check {
+  background: #ffa101;
+}
+.home .profil .developper {
+  right: 0;
+  bottom: 5%;
+}
+.home .profil .developper .check {
+  background: #333333;
+}
+
+.about {
+  color: #31525b;
+}
+.about .content {
+  display: flex;
+}
+.about .content > div {
+  width: 60%;
+}
+@media only screen and (max-width: 760px) {
+  .about .content > div {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .about .content {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 1.5rem 0;
+  }
+}
+.about .content .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.about .content .image::before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  left: 49%;
+  height: 75%;
+  width: 20rem;
+  z-index: -10;
+  background: #ffa101;
+  transform: translateX(-50%);
+  border-radius: 1rem;
+}
+.about .content .image img {
+  height: 75%;
+  background: #b3dee5;
+  opacity: 0.5;
+  border-radius: 1rem;
+}
+@media only screen and (max-width: 900px) {
+  .about .content .image img {
+    background: none;
+    opacity: 1;
+  }
+}
+.about .content .about-me {
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about .content .about-me h3 {
+  width: 60%;
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+@media only screen and (max-width: 760px) {
+  .about .content .about-me h3 {
+    width: 100%;
+  }
+}
+.about .content .about-me p {
+  width: 70%;
+}
+@media only screen and (max-width: 900px) {
+  .about .content .about-me p {
+    width: 90%;
+  }
+}
+.about .content .about-me button {
+  margin: 1.25rem 0;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0 1rem;
+  color: white;
+  background: #ffa101;
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 760px) {
+  .about .content .about-me button {
+    display: none;
+  }
+}
+.about .content .about-me button:hover {
+  border: solid #ffa101 2px;
+  background: transparent;
+  color: #ffa101;
+}
+.about .content .media-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 0.5rem 0;
+}
+.about .content .media-socials h4 {
+  font-weight: 200;
+}
+.about .content .media-socials ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.about .content .media-socials ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
