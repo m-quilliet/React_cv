@@ -2,7 +2,7 @@
   "name": "reactcv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://m-quilliet.github.io/React_cv",
+  "homepage": "https://m-quilliet.github.io/React_cv/",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/m-quilliet/React_cv.git",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
