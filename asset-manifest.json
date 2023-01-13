@@ -1,20 +1,16 @@
 {
   "files": {
-    "main.css": "/React_cv/static/css/main.a1c21e11.css",
-    "main.js": "/React_cv/static/js/main.b0831748.js",
+    "main.css": "/React_cv/static/css/main.95ffdcc0.css",
+    "main.js": "/React_cv/static/js/main.8cc74967.js",
     "static/js/787.4573b362.chunk.js": "/React_cv/static/js/787.4573b362.chunk.js",
-    "static/media/CentraNo2-Bold.ttf": "/React_cv/static/media/CentraNo2-Bold.42cf070767b30cbbf20e.ttf",
-    "static/media/CentraNo2-Book.ttf": "/React_cv/static/media/CentraNo2-Book.42cf070767b30cbbf20e.ttf",
-    "static/media/CentraNo2-Medium.ttf": "/React_cv/static/media/CentraNo2-Medium.42cf070767b30cbbf20e.ttf",
-    "static/media/icon-github.svg": "/React_cv/static/media/icon-github.b2995fe8d2ee6547a267e88c7fdfbe73.svg",
+    "static/media/snapchat.png": "/React_cv/static/media/snapchat.9c2f58a47e165bff48ca.png",
     "index.html": "/React_cv/index.html",
-    "static/media/icon-linkedin.svg": "/React_cv/static/media/icon-linkedin.a3be79867e970ef0203f8ea8a5f86d49.svg",
-    "main.a1c21e11.css.map": "/React_cv/static/css/main.a1c21e11.css.map",
-    "main.b0831748.js.map": "/React_cv/static/js/main.b0831748.js.map",
+    "main.95ffdcc0.css.map": "/React_cv/static/css/main.95ffdcc0.css.map",
+    "main.8cc74967.js.map": "/React_cv/static/js/main.8cc74967.js.map",
     "787.4573b362.chunk.js.map": "/React_cv/static/js/787.4573b362.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1c21e11.css",
-    "static/js/main.b0831748.js"
+    "static/css/main.95ffdcc0.css",
+    "static/js/main.8cc74967.js"
   ]
 }
