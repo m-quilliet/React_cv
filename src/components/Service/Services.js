@@ -6,6 +6,7 @@ import movies from '../../assets/images/movies.jpeg'
 import omief from '../../assets/images/omief.jpeg'
 import poke from '../../assets/images/poke.jpeg'
 import world from '../../assets/images/world.jpeg'
+import tic from '../../assets/images/tic.jpeg'
 import w1 from '../../assets/images/w1.png'
 import w2 from '../../assets/images/w2.png'
 import w3 from '../../assets/images/w3.png'
@@ -52,52 +53,14 @@ const Services = () => {
   return (
     <Fade bottom>
       <Container className='d-flex flex-column justify-content-center align-items-center'>
-        {/* <Row className="mb-4 pb-5">
-          <Col>
-            <ToggleButtonGroup  type="checkbox" value={value} onChange={handleChange}>
-            <ToggleButton variant="outline-dark m-1" id="tbg-btn-1" value={1}>
-              Front-end
-            </ToggleButton>
-            <ToggleButton variant="outline-dark m-1" id="tbg-btn-2" value={2}>
-              Back-end
-            </ToggleButton>
-            <ToggleButton variant="outline-dark m-1" id="tbg-btn-3" value={3}>
-              CMS
-            </ToggleButton>
-          </ToggleButtonGroup>
-        </Col>
-      </Row> */}
-      {/* <Row xs={1} md={3} className="g-4 align-tems-center">
-        {Array.from({ length: 3 }).map((_, idx) => (
-          <Col className='item'>
-            <Card classnName='inner' style={{ width: '20rem' }}>
-              <Card.Img variant="top" src={bureau} />
-              <div className='overlay'>
-                <span className="fa"><BsPlusSquare/></span>
-                <Button className="btn-outline-light">En savoir plus</Button>
-              </div>
-              <Card.Body>
-              <h6>
-          <Badge bg="secondary">Languages</Badge>
-        </h6>
-                <Card.Title>TITRE</Card.Title>
-                <Card.Text>
-                  Description courte
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          
-        ))}
-      </Row> */}
       <Fade bottom>
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
             <img className="portfolio__item-image image" src={poke} alt="" />
           </Col>
-          <Col className="d-flex flex-column justify-content-center">
-            <Row className="d-flex flex-column">
-              <Col className='ml-2'>
+          <Col className="desc_item d-flex flex-column justify-content-center">
+            <Row className="d-flex flex-column justify-content-center">
+              <Col className='mt-2'>
                 <Badge  bg="secondary">php 7</Badge>
               </Col>
               <Col>
@@ -144,11 +107,37 @@ const Services = () => {
       <Fade bottom>
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
+            <img className="portfolio__item-image image" src={tic} alt="" />
+          </Col>
+          <Col className="desc_item d-flex flex-column justify-content-center">
+            <Row className="d-flex flex-column">
+              <Col className='mt-2'>
+                <Badge className='m-2' bg="secondary">React</Badge>
+              </Col>
+              <Col>
+                <h3>Morpion</h3>
+              </Col>
+            </Row>
+            <Row>
+              <Col className='text-start'>
+                <a href="https://github.com/m-quilliet/tic-tac-toe" className="github btn btn-outline-dark" target="_blank">Github</a>
+              </Col>
+              <Col className='text-end'>
+                <a href="https://m-quilliet.github.io/tic-tac-toe/" className="demo btn btn-dark" target="_blank">Demo</a>
+              </Col>
+            </Row>
+          </Col>
+        </Row> 
+  
+  </Fade>
+      <Fade bottom>
+        <Row className='portfolio__item d-flex flex-row justify-content-center'>    
+          <Col> 
             <img className="portfolio__item-image image" src={pins} alt="" />
           </Col>
-          <Col className="d-flex flex-column justify-content-center">
+          <Col className="desc_item d-flex flex-column justify-content-center">
             <Row className="d-flex flex-column">
-              <Col className='ml-2'>
+              <Col className='mt-2'>
                 <Badge  bg="secondary">Symfony 5</Badge>
               </Col>
               <Col>
@@ -197,20 +186,20 @@ const Services = () => {
           <Col> 
             <img className="portfolio__item-image image" src={memory} alt="" />
           </Col>
-          <Col className="d-flex flex-column justify-content-center">
+          <Col className="desc_item d-flex flex-column justify-content-center">
             <Row className="d-flex flex-column">
               <Col>
-                <Badge className='m-2' bg="secondary">Javascript</Badge>
+                <Badge className='mt-2' bg="secondary">Javascript</Badge>
               </Col>
               <Col>
                 <h3>Memory</h3>
               </Col>
             </Row>
             <Row>
-              <Col>
+              <Col className='text-start'>
                 <a href="https://github.com/m-quilliet/Memo/" className="github btn btn-outline-dark" target="_blank">Github</a>
               </Col>
-              <Col>
+              <Col className='text-end'>
                 <a href= "https://m-quilliet.github.io/Memo/"className="demo btn btn-dark" target="_blank">Demo</a>
               </Col>
             </Row>
@@ -222,9 +211,9 @@ const Services = () => {
           <Col> 
             <img className="portfolio__item-image image" src={world} alt="" />
           </Col>
-          <Col className="d-flex flex-column justify-content-center">
+          <Col className="desc_item d-flex flex-column justify-content-center">
             <Row className="d-flex flex-column">
-              <Col className='ml-2'>
+              <Col className='mt-2'>
                 <Badge  bg="secondary">WordPress</Badge>
               </Col>
               <Col>
@@ -273,9 +262,9 @@ const Services = () => {
           <Col> 
             <img className="portfolio__item-image image" src={clinique} alt="" />
           </Col>
-          <Col className="d-flex flex-column justify-content-center">
+          <Col className="desc_item d-flex flex-column justify-content-center">
             <Row className="d-flex flex-column">
-              <Col className='ml-2'>
+              <Col className='mt-2'>
                 <Badge bg="secondary">Php 7</Badge>
               </Col>
               <Col>
@@ -324,9 +313,9 @@ const Services = () => {
           <Col> 
             <img className="portfolio__item-image image" src={omief} alt="" />
           </Col>
-          <Col className="d-flex flex-column justify-content-center">
+          <Col className="desc_item d-flex flex-column justify-content-center">
             <Row className="d-flex flex-column">
-              <Col>
+              <Col className='mt-2'>
                 <Badge bg="secondary">React</Badge>
               </Col>
               <Col>
@@ -347,9 +336,9 @@ const Services = () => {
           <Col> 
             <img className="portfolio__item-image image" src={cv} alt="" />
           </Col>
-          <Col className="d-flex flex-column justify-content-center">
+          <Col className="desc_item d-flex flex-column justify-content-center">
             <Row className="d-flex flex-column">
-              <Col>
+              <Col className='mt-2'>
                 <Badge className='m-2' bg="secondary">Bootstrap</Badge>
               </Col>
               <Col>
@@ -357,10 +346,10 @@ const Services = () => {
               </Col>
             </Row>
             <Row>
-              <Col>
+              <Col className='text-start'>
                 <a href= "https://github.com/m-quilliet/Maibelline_Quilliet_cv_Portfolio/blob/main/index.html" className="github btn btn-outline-dark" target="_blank">Github</a>
               </Col>
-              <Col>
+              <Col className='text-end'>
                 <a href= "https://m-quilliet.github.io/Maibelline_Quilliet_cv_Portfolio/" className="demo btn btn-dark" target="_blank">Demo</a>
               </Col>
             </Row>
@@ -372,9 +361,9 @@ const Services = () => {
           <Col> 
             <img className="portfolio__item-image image" src={movies} alt="" />
           </Col>
-          <Col className="d-flex flex-column justify-content-center">
+          <Col className="desc_item d-flex flex-column justify-content-center">
             <Row className="d-flex flex-column">
-              <Col>
+              <Col className='mt-2'>
                 <Badge className='m-2' bg="secondary">Javascript/Json</Badge>
               </Col>
               <Col>
@@ -382,10 +371,10 @@ const Services = () => {
               </Col>
             </Row>
             <Row>
-              <Col>
+              <Col className='text-start'>
                 <a href="https://github.com/m-quilliet/Data_Movies/blob/main/index.html" className="github btn btn-outline-dark" target="_blank">Github</a>
               </Col>
-              <Col>
+              <Col className='text-end'>
                 <a href="https://m-quilliet.github.io/Data_Movies/" className="demo btn btn-dark" target="_blank">Demo</a>
               </Col>
             </Row>
@@ -394,6 +383,8 @@ const Services = () => {
       </Fade> 
     </Container>
   </Fade>
+
+
   )
 }
 

@@ -11,8 +11,9 @@
     top: 0;
     left: 0;
     border-left: solid 2px #31525b;
-    border-top: solid 2px #ffa101;
-    border-top-left-radius: 1rem;    
+    border-top: solid 2px #dbb77f;
+    border-top-left-radius: 1rem; 
+    margin: 1rem;   
 }
 .new .backend {
     position: relative;
@@ -25,9 +26,10 @@
     aspect-ratio: 1/1;
     right: 0;
     bottom: 0;
-    border-right: solid 2px #ffa101;
+    border-right: solid 2px #dbb77f;
     border-bottom: solid 2px #31525b;
     border-bottom-right-radius: 1rem;
+    margin: 1rem;
 }
 
 .skillgrid {

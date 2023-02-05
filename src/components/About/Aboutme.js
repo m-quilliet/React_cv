@@ -22,7 +22,7 @@ const Me = () => {
           <Fade top>
               <h1 className='maib fw-bolder mb-4'>Maibelline QUILLIET</h1>
               <h3>Qui suis-je ?</h3>
-              <p className='lorem m-4'>Suite à une remise en question professionnelle,
+              <p className='lorem m-4'> Suite à une remise en question professionnelle,
                 j'ai entrepris une reconversion dans le domaine du numérique.
                 <br/>
                 J'ai obtenu mon titre de "Développeur Web et Web Mobile (bac+2)" en Juin 2022.
@@ -50,8 +50,7 @@ const Me = () => {
           </Col>
         </Row>
       </Container>
-    </Fade>
-    
+    </Fade>    
   )
 }
 

@@ -116,7 +116,7 @@ const Tool = () => {
           </Col>
                     
           <Col xs={6}>
-            <h3 style={{ margin:"2rem", textAlign:"center" }}>Environnement de travail</h3>
+            <h3 style={{ margin:"2rem", textAlign:"center" }}>Tools</h3>
             <div className="skillgrid">
               <div>
                 <div className="skillemblem">

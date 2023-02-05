@@ -10,7 +10,7 @@
   justify-content: center;
   gap: 6rem;
   color: #31525b;
- 
+
 }
 @media only screen and (max-width: 1024px) {
   .home {
@@ -83,7 +83,7 @@
   }
 }
 .home .catch-phrase span {
-  color: #ffa101;
+  color: #dbb77f;
 }
 .home .catch-phrase .buttons {
   margin: 2rem 0;
@@ -98,6 +98,7 @@
   padding: 0 1rem;
   color: white;
   font-size: 0.9rem;
+  z-index: 1;
 }
 .home .catch-phrase .buttons .hire-me {
   background: #31525b;
@@ -114,8 +115,8 @@
   background: #f5f5f5;
 }
 .home .catch-phrase .buttons .cv {
-  background: transparent;
-  color: #31525b;
+  background: #31525b;
+  color: white;
   border-style: solid;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.145);
@@ -125,9 +126,9 @@
   z-index:1;
 }
 .home .catch-phrase .buttons .cv:hover {
-  background: #31525b;
-  border-color: transparent;
-  color: white;
+  background: white;
+  border-color: #31525b;
+  color: #31525b;
 }
 .maibelline{
   border-radius: 30% 30% 30% 30%;
@@ -144,5 +145,8 @@
   .maibelline {
     height: 19rem;
   };
+}
+.a {
+  z-index: 1;
 }
 

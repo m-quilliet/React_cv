@@ -1,5 +1,4 @@
 .item img {
-    width: 100%;
     display: block;
 }
 
@@ -66,11 +65,13 @@
 } */
 
 .portfolio__item {
-background: var(--color-bg-variant);
-padding: 1.5rem;
-border-radius: 2rem;
+background: rgb(235, 241, 239);
+padding: 1rem;
+border-radius: 8px;
 border: 1px solid transparent;
 transition: var(--transition);
+margin: 1rem;
+/* width:37rem; */
 }
 .portfolio__item:hover {
 background: transparent;
@@ -79,8 +80,7 @@ cursor: default;
 }
 
 .portfolio__item-image {
-border-bottom-left-radius: 2rem;
-border-top-left-radius: 2rem;
+border-radius: 8px;
 overflow: hidden;
 }
 
@@ -94,7 +94,7 @@ margin-bottom: 1rem;
 }
 
 .image {
-height: 20rem;
+height: 15rem;
 
 }
 .github {
@@ -135,6 +135,11 @@ opacity: 0.1 !important;
 .carousel-indicators [data-bs-target]{
     background-color: #31525b !important;
 }
+
+.desc_item{
+    width: 15rem !important;
+}
+
 
 
 
