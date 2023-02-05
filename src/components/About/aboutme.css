@@ -1,0 +1,23 @@
+.img {
+    height: 24rem;
+    border-radius: 133px 134px 0px 135px;
+    -webkit-border-radius: 133px 134px 0px 135px;
+    -moz-border-radius: 133px 134px 0px 135px;
+    background:white;
+    border: 20px double #b3dee5;
+}
+.lorem {
+    font-size:medium;
+}
+
+.maib {
+    color:#31525B;
+   
+
+}
+h3 {
+    color:#ffa101;
+
+
+}
+

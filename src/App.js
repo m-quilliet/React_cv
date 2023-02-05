@@ -1,22 +1,28 @@
 import './App.css';
 import {Custnavbar} from "./components/Custnav/Custnavbar.js";
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
+import {Header} from './components/Head/Header';
+import Me from './components/About/Aboutme';
+import Services from './components/Service/Services';
+import Tool from './components/Tools/Tool';
 
-import {Header} from './components/Head/Header.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import {Aboutme} from "./components/About/Aboutme";
+import 'bootstrap/dist/js/bootstrap.bundle';
+
 
 
 function App() {
   return (
-    <div className="App">
-      
-
-      <Header/>
-      <Custnavbar/>
-
-      
-    </div>
+    <Router>       
+        <Custnavbar/>
+          <Routes>
+            <Route exact path='/' element={<Header/>} />
+            <Route path='/about' element={<Me/>} />
+            <Route path='/services' element={<Services/>} />
+            <Route path='/tool' element={<Tool/>} />
+          </Routes>
+    </Router>    
   );
 }
 
