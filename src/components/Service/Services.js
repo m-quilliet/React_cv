@@ -20,6 +20,7 @@ import c1 from '../../assets/images/c1.png'
 import c2 from '../../assets/images/c2.png'
 import c3 from '../../assets/images/c3.png'
 import cv from '../../assets/images/cv.jpeg'
+import jane from '../../assets/images/cv.jpeg'
 import clinique from '../../assets/images/clinique.jpeg'
 import memory from '../../assets/images/memory.jpeg'
 import "./services.css"
@@ -381,6 +382,49 @@ const Services = () => {
           </Col>
         </Row> 
       </Fade> 
+      <Fade bottom>
+        <Row className='portfolio__item d-flex flex-row justify-content-center'>    
+          <Col> 
+            <img className="portfolio__item-image image" src={jane} alt="" />
+          </Col>
+          <Col className="desc_item d-flex flex-column justify-content-center">
+            <Row className="d-flex flex-column">
+              <Col>
+                <Badge className='mt-2' bg="secondary">vite.js</Badge>
+              </Col>
+              <Col>
+                <h3>Memory</h3>
+              </Col>
+            </Row>
+            <Row>
+              <Col className='text-start'>
+                <a href="https://github.com/m-quilliet/vitejs-portfolio/" className="github btn btn-outline-dark" target="_blank">Github</a>
+              </Col>
+              <Col className='text-end'>
+                <a href= "https://m-quilliet.github.io/vitejs-portfolio/"className="demo btn btn-dark" target="_blank">Demo</a>
+              </Col>
+            </Row>
+          </Col>
+        </Row> 
+      </Fade> 
+      <Fade bottom>
+        <Row className='portfolio__item d-flex flex-row justify-content-center'>    
+          <Col> 
+            <img className="portfolio__item-image image" src={canva} alt="" />
+          </Col>
+          <Col className="desc_item d-flex flex-column justify-content-center">
+            <Row className="d-flex flex-column">
+              <Col>
+                <Badge className='mt-2' bg="secondary">Canva</Badge>
+              </Col>
+              <Col>
+                <h3>Création de mon logo</h3>
+              </Col>
+            </Row>
+          </Col>
+        </Row> 
+      </Fade> 
+      
     </Container>
   </Fade>
 
