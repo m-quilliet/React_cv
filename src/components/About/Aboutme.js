@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
-import white from "../../assets/images/img.jpg"
+import canvas from "../../assets/images/canvas.jpeg"
 import communication from "../../assets/images/communication.png"
 import creativite from "../../assets/images/creativite.png"
 import rouleau from "../../assets/images/rouleau.png"
@@ -11,31 +11,38 @@ import "./aboutme.css"
 const Me = () => {
   return (
     <Fade right>
-      <Container className="d-flex flex-row flex-wrap justify-content-center">
-        <Row className="justify-content-center align-items-center my-5" >
-          <Col sm={2} className=''>
-            <img src={white}  alt="" className="img"/>
+      <Container className="d-flex flex-wrap justify-content-center align-items-center vh-100">
+        <Row className="" >
+          <Col className=''>
+            <img src={canvas} alt="" className="img"/>
           </Col>
         </Row>
+
         <Row className="d-flex justify-content-center align-items-center my-5">
-          <Col sm={6} className='d-flex flex-column justify-content-center align-items-center'>
+          <Col className='d-flex flex-column  align-items-center'>
           <Fade top>
               <h1 className='maib fw-bolder mb-4'>Maibelline QUILLIET</h1>
               <h3>Qui suis-je ?</h3>
               <p className='lorem m-4'> Suite à une remise en question professionnelle,
-                j'ai entrepris une reconversion dans le domaine du numérique.
+              <br/>j'ai entrepris une reconversion dans le domaine du numérique.
+              <br/>
+              
+                J'ai obtenu mon titre de "Développeur Web et Web Mobile" en Juin 2022.
                 <br/>
-                J'ai obtenu mon titre de "Développeur Web et Web Mobile (bac+2)" en Juin 2022.
+                
+                J'ai ensuite suivie une formation de Développeur d'Applications Mobiles,
+                <br/>(React Native) pour étoffer mon panel de compétences.
                 <br/>
-                J'ai ensuite suivie une formation de Développeur d'Applications Mobiles (React Native), pour étoffer mon panel de compétences.
+                
+                Autonome, je me forme en ce moment sur React.js 
                 <br/>
+                et Symfony 5 en auto-didacte.
                 <br/>
-
-                Autonome, je me forme en ce moment sur React.js et Symfony 5 en auto-didacte.
-                <br/>
-                <br/>
-                Je souhaiterais intégrer une entreprise désireuse de partager ses connaissances.</p>
+                Je souhaiterais intégrer une entreprise désireuse de partager 
+                <br/> ses connaissances</p>
               <h3>Intérets</h3>
+                
+
             </Fade>
 
           <Col className='d-flex flex-row mt-3'>
@@ -48,10 +55,12 @@ const Me = () => {
             </Col>
 
           </Col>
-        </Row>
+        </Row> 
+
       </Container>
     </Fade>    
   )
 }
 
 export default Me
+

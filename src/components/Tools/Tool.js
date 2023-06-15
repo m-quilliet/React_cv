@@ -3,7 +3,7 @@ import { Row, Col, Container } from 'react-bootstrap'
 import {BsBootstrap} from 'react-icons/bs'
 import {VscGithub} from 'react-icons/vsc'
 import {SiReact, SiMysql, SiFigma, SiAdobexd, SiCanva, SiWordpress, SiGit, SiApple,
-  SiMamp, SiFirebase, SiPhp, SiCss3, SiJavascript, SiHtml5, SiGraphql} from 'react-icons/si'
+  SiMamp, SiFirebase, SiPhp, SiCss3, SiJavascript, SiHtml5, SiGraphql,SiTailwindcss} from 'react-icons/si'
 import {FaSymfony,FaTrello} from 'react-icons/fa'
 import {DiScrum, DiVisualstudio} from 'react-icons/di'
 import Fade from 'react-reveal/Fade';
@@ -41,6 +41,12 @@ const Tool = () => {
                   <BsBootstrap/>
                 </div>
                 <p>Bootstrap</p>
+              </div>
+              <div>
+                <div className="skillemblem">
+                  <SiTailwindcss/>
+                </div>
+                <p>Tailwind</p>
               </div>
               <div>
                 <div className="skillemblem">

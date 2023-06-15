@@ -13,7 +13,7 @@ export const Header = () => {
         <Row>
           <Col className="catch-phrase ms-4">
             <h1>
-              Hi , I am Maibelline <br /> <span>Developpeuse Fullstack Junior</span>
+              Hi , I am Maibelline <br /> <span>Developpeuse Front-end Junior</span>
             </h1>
             <p>
               Développeuse web et web mobile à la recherche d'une première opportunité ou

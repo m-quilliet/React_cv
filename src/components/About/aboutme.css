@@ -1,5 +1,6 @@
 .img {
-    height: 24rem;
+    max-width: 500px;
+    width: 100%;
     border-radius: 133px 134px 0px 135px;
     -webkit-border-radius: 133px 134px 0px 135px;
     -moz-border-radius: 133px 134px 0px 135px;
@@ -7,17 +8,15 @@
     border: 20px double #b3dee5;
 }
 .lorem {
-    font-size:medium;
+    font-size:1rem;
 }
 
 .maib {
     color:#31525B;
-   
-
 }
+
 h3 {
     color:#dbb77f;
-
 
 }
 
