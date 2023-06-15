@@ -34,7 +34,7 @@ const Me = () => {
                 <br/>(React Native) pour étoffer mon panel de compétences.
                 <br/>
                 
-                Autonome, je me forme en ce moment sur React.js 
+                Autonome,je me forme en ce moment sur React.js 
                 <br/>
                 et Symfony 5 en auto-didacte.
                 <br/>
