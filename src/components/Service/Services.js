@@ -122,10 +122,10 @@ const Services = () => {
             </Row>
             <Row>
               <Col className='text-start'>
-                <a href="https://github.com/m-quilliet/tic-tac-toe" className="github btn btn-outline-dark" target="_blank">Github</a>
+                <a href="https://github.com/m-quilliet/tic-tac-toe" className="github btn btn-outline-dark" target="_blank" rel="noreferrer">Github</a>
               </Col>
               <Col className='text-end'>
-                <a href="https://m-quilliet.github.io/tic-tac-toe/" className="demo btn btn-dark" target="_blank">Demo</a>
+                <a href="https://m-quilliet.github.io/tic-tac-toe/" className="demo btn btn-dark" target="_blank" rel="noreferrer">Demo</a>
               </Col>
             </Row>
           </Col>
@@ -199,10 +199,10 @@ const Services = () => {
             </Row>
             <Row>
               <Col className='text-start'>
-                <a href="https://github.com/m-quilliet/Memo/" className="github btn btn-outline-dark" target="_blank">Github</a>
+                <a href="https://github.com/m-quilliet/Memo/" className="github btn btn-outline-dark" target="_blank" rel="noreferrer">Github</a>
               </Col>
               <Col className='text-end'>
-                <a href= "https://m-quilliet.github.io/Memo/"className="demo btn btn-dark" target="_blank">Demo</a>
+                <a href= "https://m-quilliet.github.io/Memo/"className="demo btn btn-dark" target="_blank" rel="noreferrer">Demo</a>
               </Col>
             </Row>
           </Col>
@@ -327,7 +327,7 @@ const Services = () => {
             </Row>
             <Row>
               <Col>
-                <a href="https://www.omie.fr/le-gout-de-faire-mieux?gclid=CjwKCAiA5sieBhBnEiwAR9oh2gD4WvbuvgxUer60_VtDS-SMzkwCYaApvpY3u4Nx7fKMnRZwUvNJqBoCrHcQAvD_BwE" className="github btn btn-outline-dark" target="_blank">Demo</a>
+                <a href="https://www.omie.fr/le-gout-de-faire-mieux?gclid=CjwKCAiA5sieBhBnEiwAR9oh2gD4WvbuvgxUer60_VtDS-SMzkwCYaApvpY3u4Nx7fKMnRZwUvNJqBoCrHcQAvD_BwE" className="github btn btn-outline-dark" target="_blank" rel="noreferrer">Demo</a>
               </Col>
             </Row>
           </Col>
@@ -349,10 +349,10 @@ const Services = () => {
             </Row>
             <Row>
               <Col className='text-start'>
-                <a href= "https://github.com/m-quilliet/Maibelline_Quilliet_cv_Portfolio/blob/main/index.html" className="github btn btn-outline-dark" target="_blank">Github</a>
+                <a href= "https://github.com/m-quilliet/Maibelline_Quilliet_cv_Portfolio/blob/main/index.html" className="github btn btn-outline-dark" target="_blank" rel="noreferrer">Github</a>
               </Col>
               <Col className='text-end'>
-                <a href= "https://m-quilliet.github.io/Maibelline_Quilliet_cv_Portfolio/" className="demo btn btn-dark" target="_blank">Demo</a>
+                <a href= "https://m-quilliet.github.io/Maibelline_Quilliet_cv_Portfolio/" className="demo btn btn-dark" target="_blank" rel="noreferrer">Demo</a>
               </Col>
             </Row>
           </Col>
@@ -374,10 +374,10 @@ const Services = () => {
             </Row>
             <Row>
               <Col className='text-start'>
-                <a href="https://github.com/m-quilliet/Data_Movies/blob/main/index.html" className="github btn btn-outline-dark" target="_blank">Github</a>
+                <a href="https://github.com/m-quilliet/Data_Movies/blob/main/index.html" className="github btn btn-outline-dark" target="_blank" rel="noreferrer">Github</a>
               </Col>
               <Col className='text-end'>
-                <a href="https://m-quilliet.github.io/Data_Movies/" className="demo btn btn-dark" target="_blank">Demo</a>
+                <a href="https://m-quilliet.github.io/Data_Movies/" className="demo btn btn-dark" target="_blank" rel="noreferrer">Demo</a>
               </Col>
             </Row>
           </Col>
@@ -399,10 +399,10 @@ const Services = () => {
             </Row>
             <Row>
               <Col className='text-start'>
-                <a href="https://github.com/m-quilliet/vitejs-portfolio/" className="github btn btn-outline-dark" target="_blank">Github</a>
+                <a href="https://github.com/m-quilliet/vitejs-portfolio/" className="github btn btn-outline-dark" target="_blank" rel="noreferrer">Github</a>
               </Col>
               <Col className='text-end'>
-                <a href= "https://m-quilliet.github.io/vitejs-portfolio/"className="demo btn btn-dark" target="_blank">Demo</a>
+                <a href= "https://m-quilliet.github.io/vitejs-portfolio/"className="demo btn btn-dark" target="_blank" rel="noreferrer">Demo</a>
               </Col>
             </Row>
           </Col>
