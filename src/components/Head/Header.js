@@ -18,7 +18,7 @@ export const Header = () => {
             <span>
               Développeuse web et web mobile (bac+2) diplômée depuis juin 2022.
               Passionnée par l'Ui Design, je suis à la recherche d'un contrat de professionnalisation
-              pour le Titre professionnel de Webdesigner afin de me spécialiser dans tous les aspects du développement et de l'intégration front-end.
+              pour le titre professionnel de Webdesigner afin de me spécialiser dans tous les aspects du développement et de l'intégration front-end.
             </span> 
             <br/>
             <span>Je serais ravie d'intégrer une équipe de professionnels passionnés et passionnants pour m'accompagner dans ce projet.
