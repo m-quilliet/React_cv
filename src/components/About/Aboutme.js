@@ -18,28 +18,19 @@ const Me = () => {
           </Col>
         </Row>
 
-        <Row className="d-flex justify-content-center align-items-center my-5">
+        <Row className="d-flex justify-content-center align-items-center m-4">
           <Col className='d-flex flex-column  align-items-center'>
           <Fade top>
               <h1 className='maib fw-bolder mb-4'>Maibelline QUILLIET</h1>
               <h3>Qui suis-je ?</h3>
-              <p className='lorem m-4'> Suite à une remise en question professionnelle,
-              <br/>j'ai entrepris une reconversion dans le domaine du numérique.
+              <span className='lorem m-4 px-4'>Développeuse web de formation, je me suis ensuite former en autodidacte sur React.js et Symfony.
               <br/>
-              
-                J'ai obtenu mon titre de "Développeur Web et Web Mobile" en Juin 2022.
-                <br/>
-                
-                J'ai ensuite suivie une formation de Développeur d'Applications Mobiles,
-                <br/>(React Native) pour étoffer mon panel de compétences.
-                <br/>
-                
-                Autonome,je me forme en ce moment sur React.js 
-                <br/>
-                et Symfony 5 en auto-didacte.
-                <br/>
-                Je souhaiterais intégrer une entreprise désireuse de partager 
-                <br/> ses connaissances</p>
+              C'est en explorant de nombreuses librairies UI Javascript que j'ai pris conscience de mon appétence pour le Webdesign .
+              <br/> Passionnée par l'Ui Design, je veux me former sur les outils de la suite Adobe pour étoffer mes compétences créatives
+              et pouvoir réaliser des éléments graphiques complexes.
+              <br/> 
+              Mon objectif est de devenir une professionnelle complète pour m'épanouir dans le développement et l'intégration front-end.
+              </span>
               <h3>Intérets</h3>
                 
 

@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6rem;
+  gap: 5rem;
   color: #31525b;
 
 }
@@ -83,7 +83,8 @@
   }
 }
 .home .catch-phrase span {
-  color: #dbb77f;
+  color: #322c21;
+  text-align: justify;
 }
 .home .catch-phrase .buttons {
   margin: 2rem 0;
