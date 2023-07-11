@@ -10,7 +10,7 @@ import "./aboutme.css"
 
 const Me = () => {
   return (
-    <Fade direction={right}>
+    <Fade direction='right'>
       <Container className="d-flex flex-wrap justify-content-center align-items-center vh-100">
         <Row className="" >
           <Col className=''>
