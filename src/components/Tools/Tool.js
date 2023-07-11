@@ -6,14 +6,14 @@ import {SiReact, SiMysql, SiFigma, SiAdobexd, SiCanva, SiWordpress, SiGit, SiApp
   SiMamp, SiFirebase, SiPhp, SiCss3, SiJavascript, SiHtml5, SiGraphql,SiTailwindcss} from 'react-icons/si'
 import {FaSymfony,FaTrello} from 'react-icons/fa'
 import {DiScrum, DiVisualstudio} from 'react-icons/di'
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal"
 import "./tool.css"
 
 const Tool = () => {
   return (
     
     <Container className='new d-flex min-vh-100 flex-column justify-content-center align-items-center'>
-      <Fade right>
+      <Fade direction="right">
         <Row className='frontend'>
           <Col xs={6}> 
             <h3 style={{ margin:"2rem" , textAlign:"center"}}>Front-end</h3>
@@ -89,7 +89,7 @@ const Tool = () => {
         </Row>
       </Fade>
 
-      <Fade left>
+      <Fade direction='left'>
         <Row className='backend' >
           <Col xs={6}>
             <h3 style={{ margin:"2rem", textAlign:"center" }}>Cms/Design</h3>

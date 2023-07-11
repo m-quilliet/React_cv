@@ -5,12 +5,12 @@ import communication from "../../assets/images/communication.png"
 import creativite from "../../assets/images/creativite.png"
 import rouleau from "../../assets/images/rouleau.png"
 import cat from "../../assets/images/cat.png"
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal"
 import "./aboutme.css"
 
 const Me = () => {
   return (
-    <Fade right>
+    <Fade direction={right}>
       <Container className="d-flex flex-wrap justify-content-center align-items-center vh-100">
         <Row className="" >
           <Col className=''>

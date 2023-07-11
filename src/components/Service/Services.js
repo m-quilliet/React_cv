@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Row, Col, Container,Badge, Button, Modal, Carousel} from 'react-bootstrap'
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal"
 import pins from '../../assets/images/pins.jpeg'
 import movies from '../../assets/images/movies.jpeg'
 import omief from '../../assets/images/omief.jpeg'
@@ -52,9 +52,9 @@ const Services = () => {
   };
 
   return (
-    <Fade bottom>
+    <Fade direction='left'>
       <Container className='d-flex flex-column justify-content-center align-items-center'>
-      <Fade bottom>
+    
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
             <img className="portfolio__item-image image" src={poke} alt="" />
@@ -104,9 +104,9 @@ const Services = () => {
             </Row>
           </Col>
         </Row>
-      </Fade>
+     
       
-      <Fade bottom>
+     
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
             <img className="portfolio__item-image image" src={tic} alt="" />
@@ -131,8 +131,7 @@ const Services = () => {
           </Col>
         </Row> 
   
-  </Fade>
-      <Fade bottom>
+
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
             <img className="portfolio__item-image image" src={pins} alt="" />
@@ -181,9 +180,8 @@ const Services = () => {
               </Col>
             </Row>
           </Col>
-        </Row>
-      </Fade> 
-      <Fade bottom>
+          </Row>
+ 
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
             <img className="portfolio__item-image image" src={memory} alt="" />
@@ -207,8 +205,7 @@ const Services = () => {
             </Row>
           </Col>
         </Row> 
-      </Fade> 
-      <Fade bottom>
+
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
             <img className="portfolio__item-image image" src={world} alt="" />
@@ -258,8 +255,7 @@ const Services = () => {
             </Row>
           </Col>
         </Row>
-      </Fade> 
-      <Fade bottom>
+
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
             <img className="portfolio__item-image image" src={clinique} alt="" />
@@ -309,8 +305,7 @@ const Services = () => {
             </Row>
           </Col>
         </Row>
-      </Fade>
-      <Fade bottom>
+
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
             <img className="portfolio__item-image image" src={omief} alt="" />
@@ -332,8 +327,7 @@ const Services = () => {
             </Row>
           </Col>
         </Row> 
-      </Fade>       
-      <Fade bottom>
+
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
             <img className="portfolio__item-image image" src={cv} alt="" />
@@ -357,8 +351,7 @@ const Services = () => {
             </Row>
           </Col>
         </Row> 
-      </Fade> 
-      <Fade bottom>
+
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
             <img className="portfolio__item-image image" src={movies} alt="" />
@@ -382,8 +375,7 @@ const Services = () => {
             </Row>
           </Col>
         </Row> 
-      </Fade> 
-      <Fade bottom>
+
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
             <img className="portfolio__item-image image" src={jane} alt="" />
@@ -407,7 +399,7 @@ const Services = () => {
             </Row>
           </Col>
         </Row> 
-      </Fade>       
+      
     </Container>
   </Fade>
 

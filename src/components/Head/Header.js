@@ -1,14 +1,14 @@
 import React from "react";
 import { Row, Col, Container} from 'react-bootstrap'
 import profil from "../../assets/images/snapchat.png"
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 import cv from '../../assets/Cv-WebDesigner.pdf'
 import "./header.css";
 
 
 export const Header = () => { 
   return (
-    <Fade left>
+    <Fade direction='left'>
       <Container id="Home" className="home p-5 min-vh-100 justify-content-center align-items-center">
         <Row>
           <Col className="catch-phrase m-4">
