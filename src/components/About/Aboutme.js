@@ -23,7 +23,7 @@ const Me = () => {
           <Fade top>
               <h1 className='maib fw-bolder mb-4'>Maibelline QUILLIET</h1>
               <h3>Qui suis-je ?</h3>
-              <span className='lorem m-4 px-4'>Développeuse web de formation, je me suis ensuite former en autodidacte sur React.js et Symfony.
+              <span className='lorem m-4 px-4'>Développeuse web de formation, je me suis ensuite formée en autodidacte sur React.js et Symfony.
               <br/>
               C'est en explorant de nombreuses librairies UI Javascript que j'ai pris conscience de mon appétence pour le Webdesign .
               <br/> Passionnée par l'Ui Design, je veux me former sur les outils de la suite Adobe pour étoffer mes compétences créatives
