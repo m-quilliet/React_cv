@@ -7,8 +7,8 @@ import Services from './components/Service/Services';
 import Tool from './components/Tools/Tool';
 
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 
 
 
