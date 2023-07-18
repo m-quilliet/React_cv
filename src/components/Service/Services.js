@@ -27,8 +27,8 @@ import "./services.css"
 
 
 const Services = () => {
-  // const [value, setValue] = useState([1, 3]);
-  // const handleChange = (val) => setValue(val);
+   const [value, setValue] = useState([1, 3]);
+   const handleChange = (val) => setValue(val);
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
